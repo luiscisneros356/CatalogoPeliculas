@@ -17,12 +17,6 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: Text('Peliculas'),
-        actions: [
-          IconButton(
-            onPressed: () {},
-            icon: Icon(Icons.search_outlined),
-          ),
-        ],
       ),
       body: SingleChildScrollView(
         child: Column(
